@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+}
+.container {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../assets/kitchen.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+
+.header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+    .links{
+        display: flex;
+        width: 150px;
+        margin-right: 20px;
+        padding: 20px;
+        justify-content: space-evenly;
+        font-size: 20px;
+        
+    }
+    .link{
+        text-decoration: none;
+        color: inherit;
+    }
+    p{
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .mid-section{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+
+
+    }
+.description{
+font-weight:normal ;
+
+
+    }
+    .get-started{
+text-decoration: none;
+font-size: 20px;
+margin-top: 20px;
+color: white;
+background-color: #E2725B;
+padding: 15px;
+border-radius: 10px;
+    }
+    .get-started:hover{
+        background-color: #e89382;
+        transition: 0.5s;
+        
+    }
+   .title2{
+    margin-top:0;
+   }
+   .lower-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+   }
+  .functionalities{
+display: flex;
+flex-direction: column;
+
+    width: 300px;
+  }
+  .about{
+font-weight: normal;
+
+  }
+  .name{
+    margin-left: 25px;
+  }
+  .footer{
+    display: flex;
+justify-content: center;
+margin-top: 50px;
+  }
+  .ending-note{
+    font-weight: normal;
+  }
